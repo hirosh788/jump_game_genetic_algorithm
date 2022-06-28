@@ -23,3 +23,6 @@ outputs
 -두 번째 테스트  
 12번째 진화 때 점퍼가 계속해서 살아남아서 게임을 종료함.  
 
+
+youtube https://www.youtube.com/watch?v=DPfLMHV4qyE  
+velog https://velog.io/@zz121210/%EC%A0%90%ED%94%84-%EA%B2%8C%EC%9E%84-%EC%9C%A0%EC%A0%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Gentic-algorithm
