@@ -83,7 +83,7 @@ best_genomes = None
 n_generated = 0
 
 jumper = deepcopy(obj())
-jumper.put_img("C:/project/딥러닝/python/점프게임/temp/jumper.png")
+jumper.put_img("temp/jumper.png")
 jumper.change_size(40, 40)
 jumper.x = 100
 jumper.y = size[1] - jumper.sy
@@ -111,7 +111,7 @@ while SB == 0 :
     if len(jumper_list) == 0 :
         jumper_list = [deepcopy(obj()) for _ in range(N_POPULATION)]
         for i in range(N_POPULATION) :
-            jumper_list[i].put_img("C:/project/딥러닝/python/점프게임/temp/jumper.png")
+            jumper_list[i].put_img("temp/jumper.png")
             jumper_list[i].change_size(40, 40)
             jumper_list[i].x = 100
             jumper_list[i].y = size[1] - jumper_list[i].sy
@@ -126,7 +126,7 @@ while SB == 0 :
         
         if _time % 100 == 0 :
             wall = obj()
-            wall.put_img("C:/project/딥러닝/python/점프게임/temp/wall.png")
+            wall.put_img("temp/wall.png")
             level = random.randrange(1,5)
             wall.level = level
             if level == 1 :
@@ -291,7 +291,7 @@ while SB == 0 :
         if surviver_numbers > 0:
             wall.show()
 
-    font = pygame.font.Font("C:/Windows/Fonts/AGENCYR.TTF", 20)
+    font = pygame.font.Font("temp/AGENCYR.TTF", 20)
     text = font.render("scored : {}  /  surviver : {}  /  Generated : {}".format(score, surviver_numbers, n_generated), True, (255, 255, 0))
     screen.blit(text, (10, 5))
 
